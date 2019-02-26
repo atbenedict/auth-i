@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { connect } from "react-redux";
-import PostsList from "./PostsList";
+import UsersList from "./UsersList";
 import Header from "./Header";
 import EditUserForm from "./EditUserForm";
 import AddPostForm from "./AddPostForm";
@@ -21,7 +21,7 @@ export class Home extends Component {
       <div className="App">
         <Header />
         <div className="wrapper">
-          <PostsList />
+          <UsersList />
           <AddPostForm />
           <EditUserForm />
         </div>
