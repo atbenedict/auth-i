@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route, NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import BreadCrumbs from "../components/BreadCrumbs";
-import UsersList from "../components/PostsList";
+import UsersList from "../components/UsersList";
 
 export class LoggedInView extends Component {
   render() {

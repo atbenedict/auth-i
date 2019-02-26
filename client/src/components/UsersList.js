@@ -13,7 +13,9 @@ class UsersList extends React.Component {
     return (
       <div className="gallery-container">
         <div className="gallery-grid">
-          {this.props.users.map(thing => thing.username)}
+          {this.props.users.map((user, id) => {
+            return <p>{user.username}</p>;
+          })}
         </div>
       </div>
     );
@@ -21,10 +23,10 @@ class UsersList extends React.Component {
 }
 
 const mapStateToProps = state => ({
-  users: state.users
+  users: state.user.users
 });
 
 export default connect(
   mapStateToProps,
-  { getAllUsers }
+  {}
 )(UsersList);

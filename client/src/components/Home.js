@@ -5,6 +5,7 @@ import UsersList from "./UsersList";
 import Header from "./Header";
 import EditUserForm from "./EditUserForm";
 import AddPostForm from "./AddPostForm";
+import { getAllUsers } from "../store/actions/userActions";
 import "../styles/styles.css";
 
 export class Home extends Component {
@@ -32,7 +33,9 @@ export class Home extends Component {
 
 const mapStateToProps = state => ({});
 
-const mapDispatchToProps = {};
+const mapDispatchToProps = {
+  getAllUsers
+};
 
 export default connect(
   mapStateToProps,
