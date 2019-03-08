@@ -1,0 +1,292 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+.App {
+  width: 100%;
+
+  margin: 0 auto;
+  font-family: "Varela Round", sans-serif;
+  color: #e8e595;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #40627c;
+  box-shadow: 0px 0px 3px #000;
+}
+
+.palette {
+  margin-right: 5px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.userMenu {
+  font-size: 1.3rem;
+  font-family: inherit;
+  padding: 0;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: none;
+}
+
+.userMenu p {
+  padding: 10px;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu button {
+  font-size: 0.8rem;
+  margin: 0;
+  border-radius: 0;
+}
+
+button:hover {
+  color: #e8e595;
+}
+
+a {
+  text-decoration: none;
+  color: #e8e595;
+}
+
+a:hover {
+  color: #fffca3;
+}
+
+.wrapper {
+  margin: 60px auto;
+  max-width: 90%;
+}
+
+.breadcrumbs {
+  text-align: center;
+  padding-top: 10px;
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  font-size: 24px;
+  opacity: 0.66;
+}
+
+.login-register-forms {
+  background-color: rgba(64, 98, 124, 0.33);
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px #000;
+  margin: 100px auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.login-register-forms h1 {
+  font-size: 1.4rem;
+  padding-bottom: 16px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(64, 98, 124, 0.6);
+}
+
+form {
+  font-size: 60%;
+  padding: 30px;
+  width: 40%;
+  min-width: 300px;
+}
+
+.icons {
+  margin-left: 30px;
+}
